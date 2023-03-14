@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es6"],
+    "module": "node16",
+    /* "rootDir": "./", */
+    "paths": {
+      "*": ["../node_modules/*", "./*"]
+    },
+    "types": ["node"],
+    /* "outDir": "../dist/", */
+    "esModuleInterop": true
+  }
+}
